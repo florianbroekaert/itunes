@@ -39,7 +39,7 @@ thead:th{
     border: 0px;
 }
 .bold{
-    color: #35454C;
+    color: #D65F5F;
 }
 .inkom{
     text-align: center;
@@ -74,9 +74,34 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
 }
+th{
+    color: #FFF;
+}
+tr:nth-child(even)
+{background-color: #2184C1}
 
+th:nth-child(even){
+    background-color: #2184C1; 
+}
+.collapse{
+    padding-top: 10px;
+}
+thead:th{
+    background-color: white;
+    border: 0px;
+}
 
-
+.table th{
+    background-color: none;
+}
+.table{
+    border: solid 0px 10px 10px 10px;
+    border-radius: 30px;
+    border-color: #D65F5F;
+}
+.table thead tr th{
+    background: none;
+}
 
 
 /* Extra small devices (portrait phones, less than 576px)
@@ -87,39 +112,37 @@ h1{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-    body{
-        background-color: #2184C1;
-        }
-    .container{
-        background-color: #2184C1;
-        
-        }
-    .image h1{
-        position: absolute;
-        font-size: 55px;
-        top: 45%;
-        left:0;
-        right:0;
-        bottom:0;
-        height:200px;
+        body{
+            background-color: #2184C1;
+            }
+        .container{
+            background-color: #2184C1;
+            
+            }
+        .image h1{
+            position: absolute;
+            font-size: 55px;
+            top: 45%;
+            left:0;
+            right:0;
+            bottom:0;
+            height:200px;
+            }
+
+        .row{
+            padding-bottom: 110px;
+            padding-top: 140px;
         }
 
-    .row{
-        padding-bottom: 110px;
-        padding-top: 140px;
-    }
-    .bold{
-        color: #D65F5F;
-    }
-    .footer h2{
-        font-size: 13px;
-    }
-    .wistjedat1{
-        padding-bottom: 96px;
-    }
-    .wistjedat3{
-        padding-bottom: 72px;
-    }
+        .footer h2{
+            font-size: 13px;
+        }
+        .wistjedat1{
+            padding-bottom: 96px;
+        }
+        .wistjedat3{
+            padding-bottom: 72px;
+        }
  }
 
 /* Large devices (desktops, 992px and up)*/
